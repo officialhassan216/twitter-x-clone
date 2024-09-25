@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-black text-white">
+    <div class="flex container mx-auto ">
+      <div class="first w-full relative">
+        <div class="slidebar fixed left-36 flex flex-col justify-end w-full md:w-1/3 lg:w-1/4" data-aos="fade-right">
+            <ul class="flex flex-col text-xl space-y-2 font-semibold">
+                <li class="flex items-center gap-3 w-full px-3 py-2">
+                    <div class="logo">
+                        <img class="w-8" src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/twitter glow.png" alt="Logo">
+                    </div>
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-home" style="color: #ffffff;"></i></span> Home
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-search" style="color: #ffffff;"></i></span> Explore
+                </li>
+                <li class="flex items-center gap-3 w-[55%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-bell" style="color: #ffffff;"></i></span> Notification
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-object-group" style="color: #ffffff;"></i></span> Grok
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-clipboard-list" style="color: #ffffff;"></i></span> Lists
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-bookmark" style="color: #ffffff;"></i></span> Bookmarks
+                </li>
+                <li class="flex items-center gap-3 w-[60%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="fas fa-users" style="color: #ffffff;"></i></span> Communities
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><img class="w-6" src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/twitter glow.png" alt="Premium"></span> Premium
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="far fa-user" style="color: #ffffff;"></i></span> Profile
+                </li>
+                <li class="flex items-center gap-3 w-[50%] hover:bg-gray-700 hover:cursor-pointer hover:border hover:border-white hover:rounded-lg px-3 py-2">
+                    <span class="material-symbols-outlined text-2xl"><i class="far fa-comment-dots" style="color: #ffffff;"></i></span> More
+                </li>
+            </ul>
+            <div class="button my-4">
+                <button class="bg-blue-600 px-16 text-xl rounded-full py-2 text-white">Post</button>
+            </div>
+        </div>
+    </div>
+    
+     <div class="second  w-full border-[1px] border-x-white border-y-black relative">
+       <div class="top flex m-3 relative">
+        <div class="absolute w-16 h-1 rounded-full bg-blue-700 bottom-0 left-[15%] z-10"></div>
+       <div class="left  w-1/2 flex justify-center font-bold text-lg">For you</div>
+       <div class="right  w-1/2 flex justify-center font-bold text-lg">Following</div>
+       <div class="settings mx-2"><span class="material-symbols-outlined"><i class="fas fa-cog" style="color: #ffffff;"></i></span></div>
+      </div>
+      <div class="h-[1px] w-full bg-gray-700"></div>
+      <div class="What is Happening flex gap-4 my-3 ">
+        <div class="img m-2 w-16">
+          <img src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/profile 1.png" alt="" style="width: 100px; height: auto;">
+      </div>
+      <div class="w-full">
+        <input class="w-full h-7 my-2 text-xl bg-black outline-none text-white" type="text" placeholder="What is Happening?">
+
+        <div class="text-blue-600 flex items-center gap-1 w-full my-4">
+          <i class="fas fa-globe-americas" style="color: #0047c2;"></i>
+          <span class="font-bold">Every one can reply</span>
+        </div>
+        <div class="w-[90%] h-[0.2px] bg-gray-400 my-3"></div>
+        <div class="blueicons flex gap-2 "><i class="fas fa-images" style="color: #2474ff;"></i>
+          <i class="far fa-smile" style="color: #2474ff;"></i>
+          <i class="far fa-calendar-alt" style="color: #2474ff;"></i>
+          <i class="fas fa-map-marker-alt" style="color: #2474ff;"></i>
+          <i class="far fa-clipboard" style="color: #2474ff;"></i>
+
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="posts">
+       <div class="post">
+        <div class="flex">
+          
+       
+        <div class="image m-4">
+          <img class="w-16" src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/profile 1.png" alt="">
+        </div>
+        <div class="content my-3 mr-[15px]">
+         <span class="font-bold hover:underline cursor-pointer text-white">non asthetic things</span><span class="text-gray-500">@PicturesFolder . 6h</span>
+         <div>legend</div>
+         <div class="posting py-5 ml-0">
+          <img src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/meme1.webp" alt="">
+         </div>
+         <div class="icons-container flex w-full">
+          <div class="icon flex items-center justify-center w-1/2 mx-1">
+            <i class="far fa-comment-alt" style="color: #6b6b6b;"></i> 1k
+          </div>
+          <div class="icon flex items-center justify-center w-1/2 mx-1">
+            <i class="fas fa-retweet" style="color: #ababab;"></i> 1k
+          </div>
+          <div class="icon flex items-center justify-center w-1/2 mx-1">
+            <i class="fas fa-signal" style="color: #9c9c9c;"></i> 1k
+          </div>
+          <div class="icon flex items-center justify-center w-1/2 mx-1">
+            <i class="far fa-heart" style="color: #a0a4ab;"></i> 1k
+          </div>
+        </div>
+        
+        
+        
+        </div>
+      </div>
+  
+       </div>
+    </div>
+    <div class="posts">
+      <div class="post">
+       <div class="flex">
+         
+      
+       <div class="image m-4">
+         <img class="w-16" src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/profile 1.png" alt="">
+       </div>
+       <div class="content my-3 mr-[15px]">
+        <span class="font-bold hover:underline cursor-pointer text-white">non asthetic things</span><span class="text-gray-500">@PicturesFolder . 6h</span>
+        <div>Humor</div>
+        <div class="posting py-5 ml-0">
+         <img src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/meme2.png" alt="">
+        </div>
+        <div class="icons-container flex w-full">
+         <div class="icon flex items-center justify-center w-1/2 mx-1">
+           <i class="far fa-comment-alt" style="color: #6b6b6b;"></i> 1k
+         </div>
+         <div class="icon flex items-center justify-center w-1/2 mx-1">
+           <i class="fas fa-retweet" style="color: #ababab;"></i> 1k
+         </div>
+         <div class="icon flex items-center justify-center w-1/2 mx-1">
+           <i class="fas fa-signal" style="color: #9c9c9c;"></i> 1k
+         </div>
+         <div class="icon flex items-center justify-center w-1/2 mx-1">
+           <i class="far fa-heart" style="color: #a0a4ab;"></i> 1k
+         </div>
+       </div>
+       
+       
+       
+       </div>
+     </div>
+ 
+      </div>
+   </div>
+   <div class="posts">
+    <div class="post">
+     <div class="flex">
+       
+    
+     <div class="image m-4">
+       <img class="w-10" src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/new icon.png" alt="">
+     </div>
+     <div class="content my-3 mr-[15px]">
+      <span class="font-bold hover:underline cursor-pointer text-white">non asthetic things</span><span class="text-gray-500">@PicturesFolder . 6h</span>
+      <div>Haha</div>
+      <div class="posting py-5 ml-0">
+       <img src="./assets/Sigma-Web-Dev-Course-main (2)/Sigma-Web-Dev-Course-main/meme3.jfif" alt="">
+      </div>
+      <div class="icons-container flex w-full">
+       <div class="icon flex items-center justify-center w-1/2 mx-1">
+         <i class="far fa-comment-alt" style="color: #6b6b6b;"></i> 1k
+       </div>
+       <div class="icon flex items-center justify-center w-1/2 mx-1">
+         <i class="fas fa-retweet" style="color: #ababab;"></i> 1k
+       </div>
+       <div class="icon flex items-center justify-center w-1/2 mx-1">
+         <i class="fas fa-signal" style="color: #9c9c9c;"></i> 1k
+       </div>
+       <div class="icon flex items-center justify-center w-1/2 mx-1">
+         <i class="far fa-heart" style="color: #a0a4ab;"></i> 1k
+       </div>
+     </div>
+     
+     
+     
+     </div>
+   </div>
+
+    </div>
+ </div>
+  </div>
+     <div class="third w-full h-[90vh] overflow-y-scroll sticky top-0 bg-red-5044">
+        <div class="search m-3">
+         <input type="text" class="w-1/2 rounded-full bg-gray-900 text-white px-4 py-2" placeholder="search">
+        </div>
+        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+          <h1 class="text-xl font-bold mx-3">Whats happening</h1>
+          <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">
+                trending in india
+              </div>
+              <div class="font-bold">
+                #orry
+              </div>
+              <div class="text-sm text-gray-200">
+                40.2k posts
+              </div>
+          </div>
+        </div>
+        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+          <h1 class="text-xl font-bold mx-3">Whats happening</h1>
+          <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">
+                trending in india
+              </div>
+              <div class="font-bold">
+                #orry
+              </div>
+              <div class="text-sm text-gray-200">
+                40.2k posts
+              </div>
+          </div>
+        </div>
+        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+          <h1 class="text-xl font-bold mx-3">Whats happening</h1>
+          <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">
+                trending in india
+              </div>
+              <div class="font-bold">
+                #sigma course
+              </div>
+              <div class="text-sm text-gray-200">
+                40.2k posts
+              </div>
+          </div>
+        </div>
+        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+          <h1 class="text-xl font-bold mx-3">Whats happening</h1>
+          <div class="item  px-4 p-3 hover:bg-gray-800 cursor-pointer">
+              <div class="text-sm text-gray-200">
+                trending in india
+              </div>
+              <div class="font-bold">
+                #Harry
+              </div>
+              <div class="text-sm text-gray-200">
+                40.2k posts
+              </div>
+          </div>
+        </div>
+
+        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+          <h1 class="text-xl font-bold mx-3">Who to follow</h1>
+          <div class="item p-3 space-y-4">
+            <div class="font-bold">
+                Code with Harry <i class="fas fa-user-plus" style="color: #ffffff; margin-left: 5px;"></i>
+            </div>
+            <div class="font-bold cursor-pointer text-gray-200">
+                Akshay Kumar <i class="fas fa-user-plus" style="color: #ffffff; margin-left: 5px;"></i>
+            </div>
+            <div class="font-bold cursor-pointer text-gray-200">
+                Tiger shreoff <i class="fas fa-user-plus" style="color: #ffffff; margin-left: 5px;"></i>
+            </div>
+            <div class="font-bold cursor-pointer text-gray-200">
+                Patel gupta <i class="fas fa-user-plus" style="color: #ffffff; margin-left: 5px;"></i>
+            </div>
+        </div>
+        
+            <div class="text-blue-600 underline my-5">show More</div>
+        </div>
+     </div>
+     
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
